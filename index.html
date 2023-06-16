@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>CodeWox</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Bootstrap CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+      crossorigin="anonymous"
+    />
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="styleOne.css" />
+
+    <!-- Font Awesome JS -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+      integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+      integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <main class="container-fluid">
+      <div class="row" style="height: 590px">
+        <div class="col-3">
+          <!-- Slider start -->
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button
+                href="#panelsStayOpen-collapseOne"
+                class="accordion-button"
+                type="button"
+                data-toggle="collapse"
+                aria-expanded="true"
+                aria-expanded="false"
+                style="background-color: #fc8a35;font-size: 16px; margin-left: 25%;">
+                All Catagories
+              </button>
+            </h2>
+
+            <div
+              id="panelsStayOpen-collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="panelsStayOpen-headingOne"  style="box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20); border-radius: 13px;">
+              <div class="accordion-body" style="height: 530px">
+                <ul class="list-unstyled components " id="options">
+                  <!-- <p>Dummy Heading</p> -->
+                  <li class="active">
+                    <a
+                      href="#homeSubmenu"
+                      data-toggle="collapse"
+                      aria-expanded="false"
+                      class="dropdown-toggle" style="position: relative;
+                      top: 13px;">Custom block</a
+                    >
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                      <li>
+                        <a href="#">Home 1</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li  style="position: relative;
+                  top: 6px;">
+                    <a href="#">Jewelry & Watches</a>
+                  </li>
+                  <li >
+                    <a
+                      href="#pageSubmenu"
+                      data-toggle="collapse"
+                      aria-expanded="false"
+                      class="dropdown-toggle"
+                      >Computer</a
+                    >
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                      <li>
+                        <a href="#">Page 1</a>
+                      </li>
+                      <li>
+                        <a href="#">Page 2</a>
+                      </li>
+                      <li>
+                        <a href="#">Page 3</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li >
+                    <a href="#">Kids & Shoes</a>
+                  </li>
+                  <li >
+                    <a href="#">Kids & Babeis</a>
+                  </li>
+                  <li >
+                    <a href="#">Outdoor Fun & sports</a>
+                  </li>
+                  <li >
+                    <a href="#">Interior & Funiture</a>
+                  </li>
+                  <li >
+                    <a href="#">Beauty & Health</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slider end -->
+        </div>
+
+        <div class="col-9">
+          <div class="row">
+            <div class="col-12">
+              <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                  >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"
+                          >Home</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Sale</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Best Sales</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">New Products</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="row" style="height: 50px">
+                    <div class="col-3"><i class="fa-regular fa-circle-phone" style="color: #ff8000;"></i></div>
+                    <div class="col-9">
+                      <h6>(+800)123456789</h6>
+                      <h6 style="font-size: 15px; color: #979797;margin-top: -6px;margin-left: 5px;    ">
+                        Customer Support
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+
+              <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="nav navbar-nav ml-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="#">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Sale</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Best Sales</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">New Products</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                                    <i class="fas fa-align-left"></i>
+                                    <span>Toggle Sidebar</span>
+                                </button>
+                                <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <i class="fas fa-align-justify"></i>
+                                </button>
+                            
+                        </nav> -->
+            </div>
+
+            <div class="col-12 bg-warning bgDiv" style="height: 480px">
+              <div class="mx-5 mt-5">
+                <h1>
+                  Vegitables <br />
+                  100% Organic
+                </h1>
+                <br />
+                <h4>Organic ingrediants & healthy recipies</h4>
+                <br />
+                <button
+                  type="button"
+                  class="btn"
+                  style="background-color: #fc8a35; color: white"
+                >
+                  SHOP NOW
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--------- session 01 start ----------------->
+      <div class="row mt-3" style="height: 140px">
+        <div class="col-3">
+          <div class="row mt-3" style="height: 110px">
+            <div class="col-3"> 
+                <i class="fa-thin fa-plane-up" style="color: #ff8040;"></i>
+                
+            </div>
+            <div class="col-9">
+              <h5>FREE SHIPPING</h5>
+              <h6 style="font-size: 15px; color: #979797">
+                Free shipping on all US order or order above $200
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="row mt-3" style="height: 110px">
+            <div class="col-3">
+                <i class="fa-thin fa-gear" style="color: #ff8000;"></i>
+
+            </div>
+            <div class="col-9">
+              <h5>SUPPORT 24/7</h5>
+              <h6 style="font-size: 15px; color: #979797">
+                Contact us 24 hours a day. 7 days a week
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="row mt-3" style="height: 110px">
+            <div class="col-3">
+                <i class="fa-thin fa-arrow-rotate-left" style="color: #ff8000;"></i>
+            </div>
+            <div class="col-9">
+              <h5>30 DAYS RETURN</h5>
+              <h6 style="font-size: 15px; color: #979797">
+                Simply return it within 30 days for an exchange
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="row mt-3" style="height: 110px">
+            <div class="col-3">
+                <i class="fa-light fa-credit-card" style="color: #ff8000;"></i>
+
+            </div>
+            <div class="col-9">
+              <h5>100% PAYMENT SECURE</h5>
+              <h6 style="font-size: 15px; color: #979797">
+                We ensgure secure payment with PEV
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------- session 01 end ----------------->
+
+      <!--------- session 02 start ----------------->
+      <div class="row" style="height: 55px">
+        <div class="col-7 mt-2">
+          <h5>New Arrivals</h5>
+        </div>
+        <div class="col-5 mt-2">
+          <button
+            type="button"
+            class="btn mx-4"
+            style="
+              border: 2px solid #fc8a35;
+              border-radius: 20px;
+              background-color: white;
+            "
+          >
+            Hot Catagories
+          </button>
+          <button
+            type="button"
+            class="btn mx-4"
+            style="background-color: white"
+          >
+            Buttoms
+          </button>
+          <button
+            type="button"
+            class="btn mx-4"
+            style="background-color: white"
+          >
+            Accessories
+          </button>
+        </div>
+      </div>
+
+      <div class="row" style="height: 330px">
+        <div class="col-2 mt-3 mx-4">
+          <div class="col-12" style="height: 225px; background-color: #eeeeee">
+            <img
+              alt=""
+              src="asests/cabage.png"
+              style="width: 100%; height: 70% ;margin-top: 35px"
+            />
+          </div>
+          <div class="col-12 mt-3">
+            <h6>Cabage Fresh Veg</h6>
+            <h6 style="font-size: 14px; color: #979797">Graphic Corner</h6>
+          </div>
+        </div>
+        <div class="col-2 mt-3 mx-4">
+          <div class="col-12" style="height: 225px; background-color: #eeeeee">
+            <img
+              alt=""
+              src="asests/tomato.png"
+              style="width: 100%; height: 80% ;margin-top: 35px;"
+            />
+          </div>
+          <div class="col-12 mt-3">
+            <h6>Tomato Fresh Veg</h6>
+            <h6 style="font-size: 14px; color: #979797">Studio Design</h6>
+          </div>
+        </div>
+        <div class="col-2 mt-3 mx-4">
+          <div class="col-12" style="height: 225px; background-color: #eeeeee">
+            <img alt="" src="asests/stowbary.png" style="width: 100%; height:
+            70%; margin-top: 35px;">
+          </div>
+          <div class="col-12 mt-3">
+            <h6>Stowbary Fresh Fru</h6>
+            <h6 style="font-size: 14px; color: #979797">Graphic Corner</h6>
+          </div>
+        </div>
+        <div class="col-2 mt-3 mx-4">
+          <div class="col-12" style="height: 225px; background-color: #eeeeee">
+            <img alt="" src="asests/grapes.png" style="width: 95%; height: 55%;margin-top: 60px;">
+          </div>
+          <div class="col-12 mt-3">
+            <h6>Grapes Fresh Fru</h6>
+            <h6 style="font-size: 14px; color: #979797">Studio Design</h6>
+          </div>
+        </div>
+        <div class="col-2 mt-3 mx-3">
+          <div class="col-12" style="height: 225px; background-color: #eeeeee">
+            <img alt="" src="asests/peppers.png" style="width: 100%; height:
+            60%; margin-top: 35px;">
+          </div>
+          <div class="col-12 mt-3">
+            <h6>Pappers Fresh Veg</h6>
+            <h6 style="font-size: 14px; color: #979797">Studio Design</h6>
+          </div>
+        </div>
+      </div>
+
+      <!--------- session 02 end ----------------->
+    </main>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Popper.JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+      integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+      integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#sidebarCollapse").on("click", function () {
+          $("#sidebar").toggleClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
